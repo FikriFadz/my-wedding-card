@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#173d32"/>
+  <rect x="28" y="28" width="1144" height="574" fill="#f7f1e4" stroke="#a7894f" stroke-width="3"/>
+  <rect x="46" y="46" width="1108" height="538" fill="none" stroke="#a7894f"/>
+  <text x="600" y="150" fill="#622c2c" font-family="Georgia, serif" font-size="22" text-anchor="middle" letter-spacing="7">UNDANGAN MAJLIS PERKAHWINAN</text>
+  <text x="600" y="265" fill="#173d32" font-family="Georgia, serif" font-size="66" text-anchor="middle">Mohamad Fikri</text>
+  <text x="600" y="330" fill="#a7894f" font-family="Georgia, serif" font-size="38" text-anchor="middle">&amp;</text>
+  <text x="600" y="405" fill="#173d32" font-family="Georgia, serif" font-size="66" text-anchor="middle">Husna Syakirin</text>
+  <text x="600" y="490" fill="#756957" font-family="Georgia, serif" font-size="20" text-anchor="middle" letter-spacing="4">12 DISEMBER 2026 · BESUT CRYSTAL HALL</text>
+  <text x="600" y="545" fill="#a7894f" font-family="Georgia, serif" font-size="24" text-anchor="middle">M &amp; H</text>
+</svg>

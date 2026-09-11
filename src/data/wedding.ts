@@ -24,22 +24,24 @@ export const weddingData = {
     groom: "Fikri",
     brideFull: "Husna Syakirin Binti Tarmizi",
     groomFull: "Mohamad Fikri Bin Ahmad Fadzil",
+    monogram: "F & H",
   },
   event: {
-    date: "2027-03-14T12:00:00+08:00",
-    displayDate: "14 Mac 2027",
-    day: "Ahad",
+    date: "2027-03-13T12:00:00+08:00",
+    displayDate: "13 March 2027",
+    compactDate: "13 • 03 • 2027",
+    day: "Sabtu",
     venue: "Besut Crystal Hall, Terengganu",
     address: "Lot 1660, Kampung Pengkalan Nyireh, 22200 Kampung Raja, Terengganu",
     mapsUrl: "https://maps.app.goo.gl/qpMbADjPHvMVT8mCA",
     parking: "Parkir tetamu disediakan di aras P1 dan P2.",
   },
   events: [
-    { title: "Akad Nikah", date: "13 Mac 2027", day: "Ahad", time: "10:00 pagi" },
+    { title: "Akad Nikah", date: "13 March 2027", day: "Sabtu", time: "10:00 pagi" },
     {
       title: "Majlis Resepsi",
-      date: "13 Mac 2027",
-      day: "Ahad",
+      date: "13 March 2027",
+      day: "Sabtu",
       time: "12:00 tengah hari – 4:00 petang",
     },
   ] satisfies WeddingEvent[],
@@ -92,7 +94,7 @@ export const weddingData = {
       text: "Jawapan yang paling kami nantikan, di bawah langit yang tenang.",
     },
     {
-      year: "2026",
+      year: "2027",
       title: "Hari kita",
       text: "Dengan doa keluarga, kami melangkah ke bab yang seterusnya.",
     },
@@ -140,6 +142,7 @@ export const weddingData = {
     whatsappUrl:
       "https://wa.me/60123456789?text=Assalamualaikum%2C%20saya%20ingin%20mengesahkan%20kehadiran%20ke%20majlis%20Husna%20%26%20Fikri.",
   },
+  rsvpDeadline: "15 February 2027",
   gift: {
     accountName: "Husna Syakirin & Mohamad Fikri",
     accountNumber: "0000 0000 0000",
@@ -150,6 +153,13 @@ export const weddingData = {
     description:
       "Kami mengalu-alukan busana tradisional atau formal dalam warna lembut dan bersahaja.",
     colors: ["#e9dfd2", "#b7a58c", "#536158", "#2f2a27"],
+  },
+  wishes: {
+    url: "https://wa.me/60123456789?text=Assalamualaikum%2C%20tahniah%20Mohamad%20Fikri%20%26%20Husna%20Syakirin.%20Doa%20saya%3A%20",
+    samples: [
+      { quote: "Semoga perkahwinan ini sentiasa dilimpahi sakinah, mawaddah dan rahmah.", by: "Keluarga tersayang" },
+      { quote: "Selamat melangkah ke alam baharu. Semoga bahagia hingga ke syurga.", by: "Sahabat" },
+    ],
   },
   contacts: [
     { label: "Wakil keluarga", name: "Shuhada", href: "https://wa.me/60123456789" },
@@ -174,5 +184,5 @@ export const weddingData = {
       answer: "Tetamu dialu-alukan hadir mulai jam 11:30 pagi sebelum majlis resepsi bermula.",
     },
   ],
-  hashtag: "#HusnaFikri2027",
+  hashtag: "#FikriHusna2027",
 } as const;
